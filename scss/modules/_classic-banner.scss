@@ -1,0 +1,25 @@
+
+.classic-banner{
+    @include pad{
+        margin-bottom: 40px;
+    }
+    @include mobile{
+        margin-bottom: 30px;
+    }
+    > li{
+        width: 49.25%;
+        margin-right: 30px;
+        &:last-child{
+            margin-right: 0px;
+        }
+        @include pad{
+            width: 50%;
+            height: 309px;
+            background: #000;
+            margin-right: 0px;
+        }
+        @include mobile{
+            height: 144px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+
+.store_qa-banner{
+    background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/qa.png?raw=true")
+    no-repeat center;
+    background-size: cover;
+    height: 304px;
+    .container{
+        height: 100%;
+    }
+    @include pad{
+        margin-bottom: $spacing-1;
+    }
+    @include mobile{
+        height: 143px;
+    }
+}
+
+.store_qa-contral{
+    font-size: $fonz-size*8;
+    font-weight: $fontWeight-Bold;
+    @include pad{
+        font-size: $fonz-size*6;
+        .store_qa-title{
+            margin-right: $spacing-1*2;
+        }
+        .store_qa-icon{
+            width: 30px;
+        }
+    }
+    @include mobile{
+        font-size: $fonz-size*3.5;
+        .store_qa-title{
+            margin-right: $spacing-1;
+        }
+        .store_qa-icon{
+            width: 16px;
+        }
+    }
+}

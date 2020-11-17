@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,OAAO;CAIjB;;AALD,AAEI,WAFO,CAEP,WAAW,CAAA;EACP,OAAO,EAAE,MAAM;CAClB",
+    "sources": [
+        "../../scss/modules/store-card.scss"
+    ],
+    "names": [],
+    "file": "store-card.css"
+}

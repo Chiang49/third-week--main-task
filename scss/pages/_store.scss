@@ -1,0 +1,9 @@
+
+.store-list{
+    @include pad{
+        margin-bottom: $spacing-1*13;
+    }
+    @include mobile{
+        margin-bottom: $spacing-1*7;
+    }
+}

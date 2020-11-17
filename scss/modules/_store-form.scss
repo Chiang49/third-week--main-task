@@ -1,0 +1,32 @@
+
+.storeForm-contral{
+    text-align: left;
+    @include pad{
+        margin-bottom: $spacing-1*3;
+    }
+    @include mobile{
+        margin-bottom: 20px;
+    }
+}
+
+.lable-title{
+    margin-right: $spacing-1*2.5;
+    @include pad{
+        font-size: $fonz-size*2;
+    }
+    @include mobile{
+        font-size: 14px;
+        margin-right: 12px;
+    }
+}
+.select-style{
+    width: 324px;
+    height: 45px;
+    @include pad{
+        width: 237px;
+    }
+    @include mobile{
+        width: 276px;
+        height: 36px;
+    }
+}

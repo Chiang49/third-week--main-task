@@ -1,0 +1,49 @@
+
+
+
+.pageContral{
+    margin-bottom: $spacing-1*19.5;
+    @include pad{
+        margin-bottom: $spacing-1*13;
+    }
+    @include mobile{
+        margin-bottom: $spacing-1*7;
+    }
+    .pageContral-list{
+        > li{
+            border-top: 1px solid #555555;
+            border-bottom: 1px solid #555555;
+            border-left: 1px solid #555555;
+            > a{
+                font-size: 18px;
+                color: #555555;
+                padding: 12px 20.5px;
+            }
+            &:last-child{
+                border-right: 1px solid #555555;
+            }
+        }
+        @include mobile{
+            > li{
+                > a{
+                    font-size: 11px;
+                    padding: 8px 10px 9px 11px;
+                }
+            }
+        }
+    }
+    .pageUp, .pageDown{
+        font-size: 19px;
+        @include mobile{
+            font-size: 12px;
+            padding: 8px 8px 7px 9px;
+        }
+    }
+    .pageDown{
+        background: #F2F2F2;
+    }
+    .select{
+        color: #fff;
+        background: #000;
+    }
+}

@@ -1,0 +1,58 @@
+
+
+.classic-card{
+    width: 22.975%;
+    margin-bottom: 104px;
+    @include pad{
+        width: 47.826%;
+        margin-bottom: 72px;
+            > a{
+                width: 100%;
+            }
+            &:last-child, &:nth-last-child(2){
+                margin-bottom: 105px;
+            }
+    }
+    @include mobile{
+        width: 100%;
+        margin-bottom: 32px;
+            &:nth-last-child(2){
+                margin-bottom: 32px;
+            }
+            &:last-child{
+                margin-bottom: 40px;
+            }
+    }
+
+    .card-pic{
+        @include pad{
+            > img{
+                width: 100%;
+            }
+        }
+    }
+    
+    .card-Inf{
+        width: 100%;
+        text-transform: uppercase;
+        .number{
+            color: #000000;
+        }
+        .price{
+            color: $primary;
+            font-weight: $fontWeight-Medium;
+        }
+    }
+    
+    .colorBlock{
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+    }
+    .dark{
+        background: #5F3E2D;
+    }
+    .light{
+        background:#B75929;
+    }
+}

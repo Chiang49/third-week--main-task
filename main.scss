@@ -1,0 +1,24 @@
+@import './scss/abstracts/variable';
+@import './scss/abstracts/mixin';
+@import './scss/base/rest';
+@import './scss/base/typography';
+@import './scss/abstracts/utilities';
+
+//個元件
+@import './scss/modules/classic-nav';
+@import './scss/modules/classic-banner';
+@import './scss/modules/classic-card';
+@import './scss/modules/store_qa-banner';
+@import './scss/modules/page-contral';
+@import './scss/modules/store-form';
+@import './scss/modules/store-card';
+
+//layout
+@import './scss/layout/header';
+@import './scss/layout/footer';
+
+//頁面
+@import './scss/pages/index';
+@import './scss/pages/optical';
+@import './scss/pages/sunglasses';
+@import './scss/pages/store';
