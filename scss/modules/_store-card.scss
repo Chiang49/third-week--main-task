@@ -26,9 +26,9 @@
     }
     .store-name{
         text-align: left;
+        border-bottom: 1px solid #00000020;
         padding: 12px 0 12px 24px;
-        border-right: 1px solid #00000020;
-        border-left: 1px solid #00000020;
+        margin-bottom: $spacing-1*2;
         @include pad{
             padding: 8px 0 8px 16px;
             .h5{
@@ -37,15 +37,12 @@
         }
     }
     .store-inf{
-        padding: 16px 0 16px 24px;
         border: 1px solid #00000020;
-        @include pad{
-            padding: 16px 0 16px 16px;
-        }
     }
     .tel, .time, .addres{
         text-align: left;
         font-size: 20px;
+        padding-left:24px;
         display: flex;
         align-items: center;
         > img{
@@ -54,6 +51,7 @@
         }
         @include pad{
             font-size: 14px;
+            padding-left:16px;
             > img{
                 width: 20px;
                 margin-right: 16px;
@@ -62,6 +60,9 @@
     }
     .tel, .time{
         margin-bottom: 8px;
+    }
+    .addres{
+        margin-bottom: $spacing-1*2;
     }
     .detailed{
         font-size: 19px;

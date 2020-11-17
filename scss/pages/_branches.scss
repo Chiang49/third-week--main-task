@@ -1,0 +1,59 @@
+
+.branchesDetailed{
+    @include pad{
+        flex-direction: column;
+        margin-bottom: $spacing-1*13;
+    }
+    @include mobile{
+        margin-bottom: $spacing-1*7;
+    }
+}
+
+.branch{
+    width: 40.1%;
+    margin-right: 0px;
+    @include pad{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: $spacing-1*4;
+    }
+    @include mobile{
+        flex-direction: column;
+        margin-bottom: $spacing-1*2;
+    }
+    .store-pic{
+        height: 224px;
+        overflow: hidden;
+        @include pad{
+            width: 47.826%;
+            height: 164px;
+        }
+        @include mobile{
+            width: 100%;
+        }
+    }
+    .store-inf{
+        @include pad{
+            width: 47.826%;
+        }
+        @include mobile{
+            width: 100%;
+        }
+    }
+}
+
+.branchesMap{
+    width: 57.207%;
+    height: 419px;
+    overflow: hidden;
+    @include pad{
+        width: 100%;
+    }
+    @include mobile{
+        height: 227px;
+    }
+    > iframe{
+        width: 100%;
+    }
+}
