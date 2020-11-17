@@ -15,6 +15,11 @@
         }
     }
 
+    .classic-card:hover{
+        transition: 0.6s;
+        transform: translate(0px, -8px);
+    }
+
     .h4{
         @include pad{
             font-size: 24px;

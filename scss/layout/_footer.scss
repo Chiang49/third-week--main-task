@@ -24,6 +24,9 @@ footer{
         margin-bottom: $spacing-1*4.5;
     }
     .footerNav{
+        > li:hover{
+            text-decoration: underline;
+        }
         @include mobile{
             display: none;
         }
@@ -34,6 +37,10 @@ footer{
         }
     }
     .community{
+        > li:hover{
+            transition: 0.8s;
+            opacity: 0.5;
+        }
         img{
             @include pad{
                 width: 24px;
@@ -56,6 +63,9 @@ footer{
                 img{
                     margin-right: 12px;
                 }
+            }
+            &:hover{
+                text-decoration: underline;
             }
         }
         @include mobile{
@@ -120,6 +130,9 @@ footer{
             }
             > a{
                 font-size: 14px;
+            }
+            &:hover{
+                text-decoration: underline;
             }
         }
         @include mobile{
