@@ -30,6 +30,9 @@
 .pt-1{
     padding-top: $spacing-1;
 }
+.pt-2{
+    padding-top: $spacing-1*2;
+}
 .pt-3{
     padding-top: $spacing-1*3;
 }
@@ -103,6 +106,9 @@
 .mb-7{
     margin-bottom: $spacing-1*7;
 }
+.mb-7_5{
+    margin-bottom: $spacing-1*7.5;
+}
 .mb-8{
     margin-bottom: $spacing-1*8;
 }
@@ -112,8 +118,14 @@
 .mb-10{
     margin-bottom: $spacing-1*10;
 }
+.mb-10_25{
+    margin-bottom: $spacing-1*10.25;
+}
 .mb-11{
     margin-bottom: $spacing-1*11;
+}
+.mb-12_5{
+    margin-bottom: $spacing-1*12.5;
 }
 .mb-13{
     margin-bottom: $spacing-1*13;

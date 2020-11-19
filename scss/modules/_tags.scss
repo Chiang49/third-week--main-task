@@ -1,0 +1,22 @@
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    > li{
+        margin-right: $spacing-1*3;
+        @include pad{
+            margin-right: $spacing-1*2;
+        }
+        @include mobile{
+            margin-right: $spacing-1;
+        }
+        > a{
+            font-size: $fonz-size*3;
+            color: $primary;
+            font-weight: $fontWeight-Bold;
+            @include pad{
+                font-size: $fonz-size*2;
+            }
+        }
+    }
+}

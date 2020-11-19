@@ -1,0 +1,38 @@
+
+.path{
+    text-align: left;
+    display: flex;
+    @include pad{
+        margin-bottom: $spacing-1;
+    }
+    @include mobile{
+        margin-bottom: 6px;
+    }
+    li{
+        font-size: $fonz-size*2;
+        position: relative;
+        padding: 0 15px;
+        & + li::before{
+            content:"/";
+            color: #000000;
+            font-size: $fonz-size*2;
+            position: absolute;
+            left: 0px;
+
+        }
+        &:first-child{
+            padding-left: 0px;
+        }
+        @include pad{
+            font-size: 14px;
+        }
+    }
+    a{
+        color:#000000;
+    }
+    .location{
+        > a{
+            color: $primary;
+        }
+    }
+}

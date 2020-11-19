@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
 
-//個元件
+//各元件
 @import './scss/modules/classic-nav';
 @import './scss/modules/classic-banner';
 @import './scss/modules/classic-card';
@@ -14,6 +14,11 @@
 @import './scss/modules/page-contral';
 @import './scss/modules/store-form';
 @import './scss/modules/store-card';
+@import './scss/modules/blog-nav';
+@import './scss/modules/blog-card';
+@import './scss/modules/path';
+@import './scss/modules/tags';
+@import './scss/modules/blogContent-footer';
 
 //layout
 @import './scss/layout/header';
@@ -25,3 +30,6 @@
 @import './scss/pages/sunglasses';
 @import './scss/pages/store';
 @import './scss/pages/branches';
+@import './scss/pages/question';
+@import './scss/pages/blog';
+@import './scss/pages/blogContent';

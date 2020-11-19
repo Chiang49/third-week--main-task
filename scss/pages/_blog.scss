@@ -1,0 +1,32 @@
+
+
+.blogNav{
+    @include pad{
+        margin-bottom: $spacing-1*5;
+    }
+    @include mobile{
+        margin-bottom: $spacing-1*3;
+    }
+}
+
+.blogCard-list{
+    @include pad{
+        margin-bottom: $spacing-1*13;
+    }
+    @include mobile{
+        margin-bottom: 39px;
+    }
+    .blogCard{
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+    .mb-7_5{
+        @include pad{
+            margin-bottom: $spacing-1*4;
+        }
+        @include pad{
+            margin-bottom: $spacing-1*3.25;
+        }
+    }
+}
