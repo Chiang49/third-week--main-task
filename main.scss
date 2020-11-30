@@ -33,3 +33,15 @@
 @import './scss/pages/question';
 @import './scss/pages/blog';
 @import './scss/pages/blogContent';
+
+
+
+//11-30修改
+// 整體：
+
+// 可以在 .container 加入 padding 讓視窗縮小時內容不會緊貼視窗
+
+// store.html：
+// 1. .store-inf 的「電話」、「營業時間」、「地址」請使用 ul 、li 的結構
+// 2. .store-pic 的 div 可以刪除，將 .store-pic 寫在 img 上，簡化程式碼結構
+// 3. 解析度 1009px 以下的門市據點列表可再嘗試調整排版
