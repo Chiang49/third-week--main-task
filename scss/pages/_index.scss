@@ -235,12 +235,12 @@
     .title-style{
         color: #fff;
     }
-    .design-list{
+    &-list{
         @include mobile{
             flex-direction: column;
         }
     }
-    .design-item{
+    &-item{
         width: 50%;
         margin-right: 30px;
         position: relative;
@@ -284,12 +284,12 @@
 }
 
 .recommend{
-    .recommend-list{
+    &-list{
         @include pad{
             flex-wrap: wrap;
         }
     }
-    .recommend-item{
+    &-item{
         width: 25%;
         margin-right: 30px;
         transition: 0.8s;

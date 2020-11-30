@@ -11,7 +11,7 @@
     li{
         font-size: $fonz-size*2;
         position: relative;
-        padding: 0 15px;
+        padding: 0 10px;
         & + li::before{
             content:"/";
             color: #000000;

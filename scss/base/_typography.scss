@@ -27,6 +27,7 @@ a{
 //container
 .container{
     max-width: 1110px;
+    padding: 0 30px;
     margin: 0 auto;
     @include pad{
         max-width: 690px;

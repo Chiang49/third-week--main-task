@@ -1,12 +1,15 @@
 
 .store-card{
-    width: 31.531%;
+    width: 31.33%;
     margin-right: 30px;
     &:nth-child(3n){
         margin-right: 0px;
     }
+    @media screen and (min-width:993px) and (max-width: 1059px) {
+        width: 31.19%;
+    }
     @include pad{
-        width: 47.826%;
+        width: 47.62%;
         &:nth-child(3n){
             margin-right: 30px;
         }

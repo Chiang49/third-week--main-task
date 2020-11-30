@@ -38,40 +38,42 @@
             flex-direction: column;
             justify-content: flex-start;
         }
-        .blogUp, .blogDown{
-            > a{
-                color: #000;
-                display: flex;
-                align-items: center;
-                > img{
-                    @include pad{
-                        width: 20px;
-                    }
-                }
-                > p{
-                    font-size: 19px;
-                    margin: 0 $spacing-1;
-                    @include pad{
-                        font-size: $fonz-size*2;
-                    }
+    }
+    .blogUp, .blogDown{
+        > a{
+            color: #000;
+            display: flex;
+            align-items: center;
+            > img{
+                @include pad{
+                    width: 20px;
                 }
             }
-        }
-        .blogUp{
-            @include mobile{
-                margin-bottom: $spacing-1;
-            }
-        }
-        .blogDown{
-            > a{
-                flex-direction: row-reverse;
-                @include mobile{
-                    flex-direction: row;
+            > p{
+                font-size: 19px;
+                margin: 0 $spacing-1;
+                @include pad{
+                    font-size: $fonz-size*2;
                 }
             }
         }
     }
+    .blogUp{
+        @include mobile{
+            margin-bottom: $spacing-1;
+        }
+    }
+    .blogDown{
+        > a{
+            flex-direction: row-reverse;
+            @include mobile{
+                flex-direction: row;
+            }
+        }
+    }
 }
+
+
 .pad-off{
     @include pad{
         display: none;
